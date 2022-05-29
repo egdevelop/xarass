@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = mysqli_connect('localhost', 'root', '', 'laporinaja');
+$conn = mysqli_connect('localhost', 'root', '', 'xarass');
 $id= $_GET['id'];
 
 $update = "UPDATE pelaporan SET status = '1' WHERE id = '$id'";
