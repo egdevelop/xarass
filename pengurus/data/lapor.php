@@ -103,7 +103,7 @@ include "../server/server.php";
         <!-- End Navbar -->
         <div class="container-fluid py-4">
             <?php
-            $conn = mysqli_connect("localhost", "root", "", "laporinaja");
+            $conn = mysqli_connect("localhost", "root", "", "Xarass");
             $data = mysqli_query($conn, "SELECT * FROM pelaporan WHERE id = '$_GET[id]'");
             $r = mysqli_fetch_array($data);
             switch ($r['bentuk_kekerasan'])

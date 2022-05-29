@@ -172,7 +172,7 @@ include "../server/server.php";
                 <div class="card">
                     <div class="card-body">
                         <div class="d-flex align-items-center my-2">
-                            <img src="https://greatmind.id/uploads/contributor-detail/739a579afaa6613b12930f1a7d90769df8107735.jpg"
+                            <img src="https://imgx.parapuan.co/file/parapuan/mobile/crop/0x0:0x0/700x0/photo/2021/09/12/karakter-perempuan-2jpg-20210912060744.jpg"
                                 class="rounded-circle" style="width: 50px ; height:50px;" alt="">
                             <h5 class="mx-3">Tiara Dias Arista, S. Psi, M. Psi, Psikolog</h5>
                         </div>
@@ -198,7 +198,7 @@ include "../server/server.php";
                             </div>
                             <div class="mx-3 col-4">
                                 <span class="badge bg-secondary">Tarif</span>
-                                <p style="font-size: 12px ;">Rp. 25.000</p>
+                                <p style="font-size: 12px ;">Rp. 125.000</p>
                             </div>
                         </div>
                         <div class="d-grid gap-2">
@@ -213,7 +213,7 @@ include "../server/server.php";
                 <div class="card">
                     <div class="card-body">
                         <div class="d-flex align-items-center my-2">
-                            <img src="https://greatmind.id/uploads/contributor-detail/739a579afaa6613b12930f1a7d90769df8107735.jpg"
+                            <img src="https://asset-a.grid.id/crop/0x0:0x0/x/photo/2018/06/22/1303238484.jpeg"
                                 class="rounded-circle" style="width: 50px ; height:50px;" alt="">
                             <h5 class="mx-3">dr. Lina Budiyanti, Sp.KJ</h5>
                         </div>
@@ -236,7 +236,7 @@ include "../server/server.php";
                             </div>
                             <div class="mx-3 col-4">
                                 <span class="badge bg-secondary">Tarif</span>
-                                <p style="font-size: 12px ;">Rp. 340.000</p>
+                                <p style="font-size: 12px ;">Rp. 150.000</p>
                             </div>
                         </div>
                         <div class="d-grid gap-2">

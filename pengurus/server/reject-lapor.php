@@ -3,7 +3,7 @@ session_start();
 $conn = mysqli_connect('localhost', 'root', '', 'xarass');
 $id= $_GET['id'];
 
-$update = "UPDATE pelaporan SET status = '1' WHERE id = '$id'";
+$update = "UPDATE pelaporan SET status = '2' WHERE id = '$id'";
 $query = mysqli_query($conn, $update);
 
 if($query){

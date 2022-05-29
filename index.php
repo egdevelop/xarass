@@ -10,7 +10,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/Xarass.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -249,10 +249,11 @@
                                 <h4>Muhamad Aditya Darmawan</h4>
                                 <span>Frontend Developer</span>
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href="https://github.com/adityadarmawan2003"><i class="bi bi-github"></i></a>
+                                    <a href="https://www.instagram.com/adityadarmawan___/"><i
+                                            class="bi bi-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/muhamad-aditya-darmawan-57027a240"><i
+                                            class="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -281,10 +282,9 @@
                                 <h4>Faisal Rahman</h4>
                                 <span>Backend Developer</span>
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href="https://github.com/FaisalOnGit"><i class="bi bi-github"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href="https://www.instagram.com/faisal_rahman_23/"><i
+                                            class="bi bi-instagram"></i></a>
                                 </div>
                             </div>
                         </div>

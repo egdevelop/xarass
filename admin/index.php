@@ -161,6 +161,8 @@ include "../server/server.php";
                                         while ($d = mysqli_fetch_array($data)) {
                                           if($d['status'] == '0'){
                                             $status = '<span class="badge bg-danger">Belum Ditangani</span>';
+                                        }else if($d['status'] == '2'){
+                                            $status = '<span class="badge bg-danger">Reject</span>';
                                         }else{
                                             $status = '<span class="badge bg-success">Sudah Ditangani</span>';
                                         }
@@ -261,11 +263,13 @@ include "../server/server.php";
                                         <?php
                                 $data2 = mysqli_query($conn, "SELECT * FROM rehab WHERE email= '$_SESSION[email]'");
                                 while($row2 = mysqli_fetch_array($data2)){
-                                    if($row2['status'] == 0){
-                                        $status = '<span class="badge bg-danger">Belum Ditangani</span>';
-                                    }else{
-                                        $status = '<span class="badge bg-success">Sudah Ditangani</span>';
-                                    }
+                                          if($row2['status'] == '0'){
+                                            $status = '<span class="badge bg-danger">Belum Ditangani</span>';
+                                        }else if($row2['status'] == '2'){
+                                            $status = '<span class="badge bg-danger">Reject</span>';
+                                        }else{
+                                            $status = '<span class="badge bg-success">Sudah Ditangani</span>';
+                                        }
                                     echo '<tr>
                                             <th scope="row" class="text-xs font-weight-bold mb-0">'.$row2['id'].'</th>
                                             <td class="text-xs font-weight-bold mb-0">'.$row2['bentuk_rehab'].'</td>

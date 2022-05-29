@@ -138,6 +138,8 @@ include "../server/server.php";
                                         while ($d = mysqli_fetch_array($data)) {
                                           if($d['status'] == '0'){
                                             $status = '<span class="badge bg-danger">Belum Ditangani</span>';
+                                        }else if($d['status'] == '2'){
+                                            $status = '<span class="badge bg-danger">Reject</span>';
                                         }else{
                                             $status = '<span class="badge bg-success">Sudah Ditangani</span>';
                                         }
@@ -186,14 +188,15 @@ include "../server/server.php";
                                             <td>
                                                 <?php if ($d['status'] == 0){ ?>
                                                 <a href="server/tandai-lapor.php?id=<?= $d['id'] ?>"
-                                                    class="btn btn-success">tandai ditanggani</a>
+                                                    class="btn btn-success">Tandai ditanggani</a>
+                                                <a href="server/reject-lapor.php?id=<?= $d['id'] ?>"
+                                                    class="btn btn-danger">Reject</a>
                                                 <?php } ?>
                                                 <a href="data/lapor.php?id=<?= $d['id'] ?>"
                                                     class="btn btn-primary">Lihat Data</a>
                                             </td>
                                         </tr>
                                         <?php $no++; } ?>
-
                                     </tbody>
                                 </table>
                             </div>
@@ -252,8 +255,10 @@ include "../server/server.php";
                                 while($row2 = mysqli_fetch_array($data2)){
                                     if($row2['status'] == 0){
                                         $status = '<span class="badge bg-danger">Belum Ditangani</span>';
+                                    }elseif($row2['status'] == 2){
+                                        $status = '<span class="badge bg-danger">Reject</span>';
                                     }else{
-                                        $status = '<span class="badge bg-success">Sudah Ditangani</span>';
+                                        $status = '<span class="badge bg-success">Sudah Ditanggani</span>';
                                     }
                                     echo '<tr>
                                             <th scope="row" class="text-xs font-weight-bold mb-0">'.$row2['id'].'</th>
