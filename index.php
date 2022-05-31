@@ -39,7 +39,6 @@
 </head>
 
 <body>
-
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top d-flex align-items-center header-transparent">
         <div class="container d-flex align-items-center justify-content-between">
@@ -56,10 +55,11 @@
                     <li><a class="nav-link scrollto" href="#about">Features</a></li>
                     <li><a class="nav-link scrollto" href="#team">Team</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li class="signin-home-mobile"><a class="btn btn-secondary fw-bold "style="background-color:#CDC2AE;" href="signin/">Sign in</a><li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
-            <a class="btn btn-secondary fw-bold" style="background-color:#CDC2AE" href="signin/">Sign in</a>
+            <a class="btn btn-secondary fw-bold signin-home"style="background-color:#CDC2AE;" href="signin/">Sign in</a>
 
         </div>
     </header><!-- End Header -->
@@ -74,11 +74,11 @@
                         <h1>You are not alone and <span>Xarass</span> is here to help</h1>
                         <h2>Help us by reporting for the good of everyone</h2>
                         <div class="text-center text-lg-start">
-                            <a href="#about" class="btn-get-started scrollto">Get in Touch with Us</a>
+                            <a href="#team" class="btn-get-started scrollto">Get in Touch with Us</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+                <div class="col-lg-4 order-1 order-lg-2 hero-img " data-aos="zoom-out" data-aos-delay="300">
                     <img src="assets/img/hero.svg" class="img-fluid animated" alt="">
                 </div>
             </div>

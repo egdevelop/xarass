@@ -1,6 +1,7 @@
 <?php
 session_start();
-$conn = mysqli_connect('localhost', 'root', '', 'xarass');
+$conn = mysqli_connect('localhost', 'root', '@egdev', 'xarass');
+
 $bentuk_rehab = "Chat";
 $nama_psikolog = $_GET['nama'];
 $antrian = rand(1,100);

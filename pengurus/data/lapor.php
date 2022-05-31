@@ -1,5 +1,5 @@
 <?php
-include "../server/server.php";
+include "../../server/server.php";
 ?>
 
 <!--
@@ -55,7 +55,7 @@ include "../server/server.php";
         <div class="collapse navbar-collapse w-auto" id="sidenav-collapse-main">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.php">
+                    <a class="nav-link active" href="../index.php">
                         <div
                             class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                             <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
@@ -96,6 +96,15 @@ include "../server/server.php";
                                 <span class="d-sm-inline d-none"><?= $_SESSION['nama'] ?></span>
                             </a>
                         </li>
+                                    <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+              <a href="javascript:;" class="nav-link text-white p-0" id="iconNavbarSidenav">
+                <div class="sidenav-toggler-inner">
+                  <i class="sidenav-toggler-line bg-white"></i>
+                  <i class="sidenav-toggler-line bg-white"></i>
+                  <i class="sidenav-toggler-line bg-white"></i>
+                </div>
+              </a>
+            </li>
                     </ul>
                 </div>
             </div>
@@ -103,7 +112,7 @@ include "../server/server.php";
         <!-- End Navbar -->
         <div class="container-fluid py-4">
             <?php
-            $conn = mysqli_connect("localhost", "root", "", "Xarass");
+            $conn = mysqli_connect("localhost", "root", "@egdev", "xarass");
             $data = mysqli_query($conn, "SELECT * FROM pelaporan WHERE id = '$_GET[id]'");
             $r = mysqli_fetch_array($data);
             switch ($r['bentuk_kekerasan'])

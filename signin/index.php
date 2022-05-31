@@ -28,14 +28,24 @@ if(isset($_POST['login'])){
 </head>
 
 <body>
-
+<style>
+    .sign-img{
+        width: 80%;
+    }
+@media only screen and (max-width: 600px) {
+        .sign-img{
+            width: 100%;
+            margin-top: -100px;
+        }
+    }
+</style>
 
 
     <div class="content">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="images/login-img.svg" style="width: 80% ;" alt="Image" class="img-fluid">
+                    <img src="images/login-img.svg" alt="Image" class="img-fluid sign-img">
                 </div>
                 <div class="col-md-6 contents">
                     <div class="row justify-content-center">

@@ -1,6 +1,7 @@
 <?php
 session_start();
-$conn = mysqli_connect('localhost', 'root', '', 'xarass');
+$conn = mysqli_connect('localhost', 'root', '@egdev', 'xarass');
+
 $id= $_GET['id'];
 
 $update = "UPDATE rehab SET status = '1' WHERE id = '$id'";

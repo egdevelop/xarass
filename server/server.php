@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$conn = mysqli_connect('localhost', 'root', '', 'xarass');
+$conn = mysqli_connect('localhost', 'root', '@egdev', 'xarass');
 
 function Login(){
     global $conn;
